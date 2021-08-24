@@ -1,0 +1,287 @@
+/*PREWIEW */
+@media (max-width:1440px)
+{
+    .prewiew
+    {
+        width:80%;
+    }
+}
+@media (max-width:1260px)
+{
+    .prewiew
+    {
+        width:90%;
+    }
+}
+@media (max-width:1120px)
+{
+    .prewiew
+    {
+        width:100%;
+    }
+}
+@media (max-width:1010px)
+{
+    .prewiew
+    {
+        top:30px;
+    }
+    .prewiew_prew
+    {
+        font-size: 60px;
+    }
+    .prewiew_content
+    {
+        font-size: 25px;
+        margin: 80px 0px;
+    }
+    .prewiew_btn
+    {
+        width:270px;
+        height: 65px;
+    }
+    .prewiew_btn_content
+    {
+        padding: 14px;
+        font-size: 25px;
+    }
+    .prewiew_btn_container
+    {
+        margin: 200px 0px;
+    }
+}
+@media (max-width:840px)
+{
+    .prewiew_content
+    {
+        width:600px;
+        font-size: 20px;
+        margin: 80px 0px;
+    }
+    .prewiew_btn_container
+    {
+        margin: 170px 0px;
+        width:280px;
+    }
+    
+    .prewiew_btn_content
+    {
+        padding: 14px;
+        font-size: 23px;
+    }
+}
+@media (max-width:840px)
+{
+    .prewiew
+    {
+        left:0px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .prewiew_prew
+    {
+        left:0px;
+        width:100%;
+    }
+    .prewiew_prew_block
+    {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .prewiew_btn
+    {
+        display:flex;
+        justify-content: center;
+        width:100%;
+    }
+}
+@media (max-width:550px)
+{
+    .prewiew_prew
+    {
+        font-size: 50px;
+    }
+    .prewiew_content
+    {
+        width:500px;
+        font-size: 17px;
+        margin: 70px 0px;
+    }
+    .prewiew_btn_container
+    {
+        margin: 150px 0px;
+        width:240px;
+    }
+    .prewiew_btn
+    {
+        height: 55px;
+    }
+    .prewiew_btn_content
+    {
+        padding: 10px;
+    }
+}
+@media (max-width:460px)
+{
+    .prewiew_content
+    {
+        width:420px;
+        font-size: 15px;
+        margin: 70px 0px;
+    }
+    .prewiew_btn_container
+    {
+        width:200px;
+    }
+    .prewiew_btn
+    {
+        height: 50px;
+    }
+    .prewiew_btn_content
+    {
+        font-size: 19px;
+        padding: 7px;
+    }
+}
+@media (max-width:400px)
+{
+    .prewiew_content
+    {
+        width:300px;
+        font-size: 14px;
+        margin: 65px 0px;
+    }
+    .prewiew_btn
+    {
+        height: 45px;
+    }
+    .prewiew_btn_content
+    {
+        padding: 4px;
+    }
+}
+
+/*Rows*/
+
+
+@media (max-width:1150px)
+{
+    .row
+    {
+        grid-gap:15px;
+    }
+}
+@media (max-width:1050px)
+{
+    .row
+    {
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap:2em;
+        height: 900px;
+    }
+}
+@media (max-width:1010px)
+{
+    .row
+    {
+        top:400px;
+    }
+}
+@media (max-width:840px)
+{
+    .row
+    {
+        justify-content: center;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap:2em;
+        height: 1350px;
+    }
+    .col
+    {
+        left:20%;
+        width:60%;
+    }
+}
+@media (max-width:650px)
+{
+    .col
+    {
+        left:15%;
+        width:70%;
+    }
+}
+@media (max-width:500px)
+{
+    .row
+    {
+        top:350px;
+    }
+    .col
+    {
+        left:10%;
+        width:80%;
+    }
+}
+@media (max-width:460px)
+{
+    .row
+    {
+        top:330px;
+        height: 1250px;
+    }
+    .col
+    {
+        left:5%;
+        width:90%;
+    }
+    .col_content
+    {
+        font-size: 30px;
+    }
+    .col_header_content
+    {
+        font-size: 30px;
+        height: 50px;
+    }
+    .col_btn
+    {
+        width:70%;
+        height: 50px;
+    }
+    .col_btn_content
+    {
+        padding:9px;
+        font-weight: normal;
+        font-size: 24px;
+    }
+}
+@media (max-width:370px)
+{
+    .col
+    {
+        left:0%;
+        width:100%;
+    }
+}
+
+/*footer*/
+
+
+
+@media (max-width:1050px)
+{
+    .footer
+    {
+        top:1400px;
+    }
+}
+@media (max-width:840px)
+{
+    .footer
+    {
+        top:1800px;
+    }
+}
